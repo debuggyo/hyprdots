@@ -3,7 +3,7 @@
 **Install Dependencies**
 
 ```
-yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot hyprpicker
+yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot
 git clone --depth=1 https://github.com/debuggyo/dots
 sudo systemctl enable --now sddm
 ```
