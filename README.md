@@ -4,6 +4,7 @@
 
 ```
 yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot hyprpicker
+git clone --depth=1 https://github.com/debuggyo/dots
 sudo systemctl enable --now sddm
 ```
 
@@ -44,8 +45,6 @@ Move the folders contained into .config
 
 # Desktop Screenshots
 ![image](https://user-images.githubusercontent.com/96699361/218343617-91b59916-a4f9-4635-b9ab-360a80ac4234.png)
-
-
-*- Supply your own GTK themes, icons and fonts ( have atleast 1 Nerd Font installed for waybar to look correct )*
+*outdated*
 
 *- Includes background since colours are made for the background.*
