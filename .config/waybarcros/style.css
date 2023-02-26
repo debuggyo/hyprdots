@@ -1,0 +1,141 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: Product Sans;
+  font-weight: 700;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #c7c7f5;
+  border-radius: 20 20 0 0;
+}
+
+tooltip {
+  background: #1d2021;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #101213;
+  border-radius: 10px;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #c7c7f5;
+  margin-right: 0;
+}
+
+#workspaces button.active {
+  color: #c7c7f5;
+  background: #303048;
+  padding: 5 10px;
+  border-radius: 20px;
+}
+
+#workspaces button.focused {
+  color: #c7c7f5;
+  background: transparent;
+}
+
+#workspaces button.urgent {
+  color: #c7c7f5;
+  background: transparent;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: #c7c7f5;
+  border-radius: 20px;
+}
+
+custom-language, #custom-updates, #custom-caffeine, #custom-power, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #backlight {
+  background: transparent;
+  padding: 0px 10px;
+}
+
+#tray {
+  margin-right: 5px;
+  background: #28283c;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+#workspaces {
+  background: transparent;
+  padding: 3 3 3 3px;
+  margin-left: 3px;
+  background: #28283c;
+  margin-bottom: 5px;
+  border-radius: 5 20 20 5px;
+  margin-top: 5px;
+}
+a
+#custom-caffeine {
+  color: #c7c7f5;
+}
+
+#custom-language {
+  color: #c7c7f5;
+}
+
+#custom-updates {
+  color: #c7c7f5;
+}
+
+#clock {
+  color: #c7c7f5;
+  margin-left: 10px;
+  background: #28283c;
+  margin-bottom: 5px;
+  border-radius: 15 5 5 15px;
+  margin-top: 5px;
+}
+
+#network {
+  color: #c7c7f5;
+  border-radius: 15 5 5 15px;
+  background: #28283c;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+#pulseaudio {
+  color: #c7c7f5;
+  margin-right: 10px;
+  background: #28283c;
+  margin-bottom: 5px;
+  border-radius: 5 15 15 5px;
+  margin-top: 5px;
+}
+
+#battery{
+  color: #c7c7f5;
+  background: #28283c;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#backlight{
+  color: #c7c7f5;
+  background: #28283c;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#window{
+  color: #c7c7f5;
+  padding: 0px 10px;
+  background: transparent;
+  background: #28283c;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
