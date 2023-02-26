@@ -3,7 +3,7 @@
 **Install Dependencies**
 
 ```
-yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot
+yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot inotify-tools
 sudo systemctl enable --now sddm
 ```
 
