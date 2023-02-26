@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CONFIG_FILES="$HOME/.config/waybarcros/config.jsonc $HOME/.config/waybarcros/style.css"
+
+trap "killall waybar" EXIT
+
+while true; do
+    waybar -c ~/.config/waybarcros/config.jsonc -s ~/.config/waybarcros/style.css &
+    inotifywait -e create,modify $CONFIG_FILES
+    killall waybar
+done
