@@ -4,7 +4,6 @@
 
 ```
 yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot
-git clone --depth=1 https://github.com/debuggyo/dots
 sudo systemctl enable --now sddm
 ```
 
@@ -12,7 +11,7 @@ sudo systemctl enable --now sddm
 
 <kbd>Super</kbd> + <kbd>Q</kbd> to open a terminal
 ```
-git clone https://github.com/debuggyo/dotfiles
+git clone https://github.com/debuggyo/dots
 nemo
 ```
 Move the folders contained into .config
