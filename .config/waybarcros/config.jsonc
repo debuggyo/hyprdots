@@ -1,18 +1,19 @@
 {
 
   "layer": "top",
-  "position": "bottom",
-  "height": 33,
+  "position": "top",
+  "height": 40,
+  "width": 1910,
 
-  "modules-left":   ["clock",  "wlr/workspaces"],
-  "modules-center": ["hyprland/window"],
-  "modules-right":  ["tray", "bluetooth", "network", "battery", "backlight", "pulseaudio"],
+  "modules-left":   ["custom/icon", "hyprland/window"],
+  "modules-center": [],
+  "modules-right":  ["wlr/workspaces", "tray", "bluetooth", "network", "battery", "backlight", "pulseaudio", "clock"],
 
   "wlr/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
     "on-click": "activate",
-    //"format": "{icon}",
+    "format": "{icon}",
     "persistent_workspaces": {
       "1": [],
       "2": [],
@@ -24,21 +25,20 @@
       "8": [],
       "9": [],
       "10": []
+    },
+    "format-icons": {
+      "1": "󰈹",
+      "2": "󰙯",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十",
+      "default": ""
     }
-    /*"format-icons": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": "",
-      "6": "",
-      "7": "",
-      "8": "",
-      "9": "",
-      "10": "",
-      "default": "",
-      "active": ""
-    }*/
   },
   "tray": {
     "icon-size": 13,
@@ -65,7 +65,7 @@
     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
   },
   "clock": {
-   "format": "{:   %I:%M %p       %a %d %b}",
+   "format": "{:%a %d %b  %I:%M %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
@@ -89,6 +89,9 @@
       "car": "",
       "default": ["", "", "墳", ""]
     }
+  },
+  "custom/icon": {
+    "format": ""
   }
 }
 
