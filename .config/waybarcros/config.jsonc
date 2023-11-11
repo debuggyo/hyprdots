@@ -1,13 +1,12 @@
 {
-
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "height": 40,
   "width": 1910,
 
-  "modules-left":   ["custom/icon", "hyprland/window"],
-  "modules-center": [],
-  "modules-right":  ["wlr/workspaces", "tray", "bluetooth", "network", "battery", "backlight", "pulseaudio", "clock"],
+  "modules-left":   ["custom/icon", "hyprland/workspaces", "cavav"],
+  "modules-center": ["hyprland/window"],
+  "modules-right":  ["tray", "network", "battery", "backlight", "pulseaudio", "clock#date", "clock"],
 
   "wlr/workspaces": {
     "disable-scroll": true,
@@ -25,8 +24,8 @@
       "8": [],
       "9": [],
       "10": []
-    },
-    "format-icons": {
+    }
+/*    "format-icons": {
       "1": "󰈹",
       "2": "󰙯",
       "3": "三",
@@ -38,7 +37,7 @@
       "9": "九",
       "10": "十",
       "default": ""
-    }
+    } */
   },
   "tray": {
     "icon-size": 13,
@@ -65,9 +64,13 @@
     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
   },
   "clock": {
-   "format": "{:%a %d %b  %I:%M %p}",
+   "format": "{:%I:%M %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
+  "clock#date": {
+    "format": "{:%a %d %b}",
+     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+   },
   "network": {
     "format-wifi": "直 {essid}",
     "format-ethernet": " {essid}",
@@ -94,5 +97,3 @@
     "format": ""
   }
 }
-
-
