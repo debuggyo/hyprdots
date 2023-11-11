@@ -1,9 +1,9 @@
-# Hyprland Dotfiles
+# HyprDots
 
 **Install Dependencies**
 
 ```
-yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot inotify-tools
+yay -S hyprland kitty dolphin hyprpaper-git sddm waybar-hyprland wofi hyprshot inotify-tools wlogout
 sudo systemctl enable --now sddm
 ```
 
@@ -12,7 +12,7 @@ sudo systemctl enable --now sddm
 <kbd>Super</kbd> + <kbd>Q</kbd> to open a terminal
 ```
 git clone https://github.com/debuggyo/dots
-nemo
+dolphin
 ```
 Move the folders contained into .config
 
@@ -20,9 +20,9 @@ Move the folders contained into .config
 
 <kbd>Super</kbd> + <kbd>T</kbd>				Open Terminal *( kitty )*                             
                       
-<kbd>Super</kbd> + <kbd>E</kbd>       Open File Manager *( Nemo )*                          
+<kbd>Super</kbd> + <kbd>E</kbd>       Open File Manager *( Dolphin )*                          
                       
-<kbd>Super</kbd> + <kbd>Esc</kbd>     Exit Hyprland and go to SDDM                          
+<kbd>Super</kbd> + <kbd>Esc</kbd>     Power Menu                          
                     
 <kbd>Super</kbd> + <kbd>Q</kbd>       Close active window                                    
                     
@@ -34,7 +34,9 @@ Move the folders contained into .config
 
 <kbd>Super</kbd> + <kbd>F</kbd>       Toggle tiling on the active window
 
-# Screenshot tools *( hyprshot )*
+<kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>       Toggle tiling on the active window
+
+# Screenshot shortcuts *( hyprshot )*
 
 <kbd>Super</kbd> + <kbd>S</kbd>       Select Region
 
@@ -43,7 +45,4 @@ Move the folders contained into .config
 <kbd>Super</kbd> + <kbd>U</kbd>       Select Window
 
 # Desktop Screenshots
-![image](https://user-images.githubusercontent.com/96699361/218343617-91b59916-a4f9-4635-b9ab-360a80ac4234.png)
-*outdated*
-
-*- Includes background since colours are made for the background.*
+![image](https://github.com/debuggyo/hyprdots/assets/96699361/fe1c7636-acc9-4822-8823-7104d7f50d38)
