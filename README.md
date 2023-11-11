@@ -16,6 +16,9 @@ dolphin
 ```
 Move the folders contained into .config
 
+***NOTE: You will have to provide your own wallpaper and edit `.config/hypr/hyprpaper.conf` accordingly***
+
+
 # Keybinds
 
 <kbd>Super</kbd> + <kbd>T</kbd>				Open Terminal *( kitty )*                             
@@ -28,13 +31,11 @@ Move the folders contained into .config
                     
 <kbd>Super</kbd> + <kbd>R</kbd>       Run app chooser menu *( wofi )*                       
                     
-<kbd>Super</kbd> + <kbd>W</kbd>       Open Web Browser *( Firefox )*                        
-
-<kbd>Super</kbd> + <kbd>K</kbd>       Open a Colour Picker, Copies Hex Code to clipboard    
+<kbd>Super</kbd> + <kbd>W</kbd>       Open Web Browser *( Firefox )*                         
 
 <kbd>Super</kbd> + <kbd>F</kbd>       Toggle tiling on the active window
 
-<kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>       Toggle tiling on the active window
+<kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>       Fullscreens the active window
 
 # Screenshot shortcuts *( hyprshot )*
 
